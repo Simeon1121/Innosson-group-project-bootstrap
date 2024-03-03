@@ -1,68 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.navbar{
-    background-color: rgba(255, 255, 255, 1);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.navbar {
+  background-color: rgba(255, 255, 255, 1);
 }
-.btn{
-    background: rgba(56, 214, 158, 1);
-    color: rgba(247, 247, 247, 1);
-    font-family: "noto sans" sans-serif;
-    font-weight: 600;
+.btn {
+  background: rgba(56, 214, 158, 1);
+  color: rgba(247, 247, 247, 1);
+  font-family: "noto sans" sans-serif;
+  font-weight: 600;
 }
 .nav-ul {
-    color: rgba(15, 15, 15, 1);
-    font-family: "noto sans" sans-serif;
-    font-weight: 600;
+  color: rgba(15, 15, 15, 1);
+  font-family: "noto sans" sans-serif;
+  font-weight: 600;
 }
 /* main section */
-main{
-    background-image: url(./Assets/hero-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 30rem;
-    color: rgba(247, 247, 247, 1);
+main {
+  background-image: url(./Assets/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  color: rgba(247, 247, 247, 1);
 }
-main h2{
-    font-family: "noto sans" sans-serif;
-    font-weight: 500;
+main h2 {
+  font-family: "noto sans" sans-serif;
+  font-weight: 500;
 }
-main p{
-    font-family: "noto sans" sans-serif;
-    font-weight: 500;
+main p {
+  font-family: "noto sans" sans-serif;
+  font-weight: 500;
 }
 /* section-1 */
-.section-1{
-    background: rgba(54, 95, 163, 1);
-    font-family: "noto sans" sans-serif;
-    font-weight: 500;
-    height: 6rem;
-    color: rgba(255, 255, 255, 1);
+.section-1 {
+  background: rgba(54, 95, 163, 1);
+  font-family: "noto sans" sans-serif;
+  font-weight: 500;
+  height: 6rem;
+  color: rgba(255, 255, 255, 1);
 }
-@media(max-width: 475px){
-    main p{
-        width: 100%;
-    }
-    main h2 {
-        width: 100%;
-    }
-    .section-1 h3{
+.section-2 {
+  background-color: rgb(254, 254, 254);
+}
+.section-2 h2{
+    color: rgba(54, 95, 163, 1);
+}
+.card-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section-3 {
+  background-image: url(./Assets/joining\ hands-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  color: rgba(247, 247, 247, 1);
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.section-3 h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+}
+.footer {
+  background-position: relative;
+  z-index: 1;
+  background-color: rgba(15, 15, 15, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+footer .btn {
+  background-color: #2e3192;
+}
 
-    }
+@media (max-width: 475px) {
+  main p {
+    width: 100%;
+  }
+  main h2 {
+    width: 100%;
+  }
+  .card-2 {
+    width: 100%;
+  }
+  .section-3 {
+    width: 100%;
+    margin: auto;
+  }
 }
-@media(min-width: 768px){
-main p{
+@media (min-width: 768px) {
+  main p {
     width: 38%;
-}
-main h2{
+  }
+  main h2 {
     width: 30%;
+  }
+  .section-1 h3 {
+    width: 45%;
+    margin: auto;
+  }
+  .section-3 h2 {
+    width: 30%;
+    margin: auto;
+  }
 }
-.section-1 h3{
-        width: 45%;
-        margin: auto;
-}
-}
-/* section-2 */
-.section-2{
-    background-color: rgb(254, 254, 254);
 
+.card-btn {
+  background-color: rgba(56, 214, 158, 1);
+  background-color: rgba(56, 214, 158, 1);
+  color: rgba(247, 247, 247, 1);
+  font-family: "Noto sans", sans-serif;
+  font-weight: 600;
+  border: none;
 }
